@@ -1,28 +1,37 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>Student Gallery</title>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
-<link href="../css/styles.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-	<p>[manhattan college logo goes here]</p>
-	<table>
-		<tr>
-			<td><a href="../index.html">Home Page</a></td>
-			<td><a href="../about-this-course.html">About This Course</a></td>
-			<td><a href="../class-directory.html">Class Directory</a></td>
-			<td><a href="../contact-us.html">Contact Us</a></td>
-			<td><a href="../project-guidelines.html">Project Guidelines</a></td>
-		</tr>
-	</table>
-	<!-- TemplateBeginEditable name="Master Content Area" -->
-	<p>[content goes here]</p>
-	<!-- TemplateEndEditable -->
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<title>Student Gallery</title>
+		<!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="head" -->
+		<!-- TemplateEndEditable -->
+		<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<div class="content">
+				<img src="../images/interface/manhattan-college-logo.png" width="341" height="78" alt="Manhattan College Logo" />
+				<table>
+					<tr>
+						<td><a href="../index.html">Home Page</a></td>
+						<td><a href="../about-this-course.html">About This Course</a></td>
+						<td><a href="../class-directory.html">Class Directory</a></td>
+						<td><a href="../contact-us.html">Contact Us</a></td>
+						<td><a href="../project-guidelines.html">Project Guidelines</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="content">
+				<!-- TemplateBeginEditable name="Master Content Area" -->
+				<p>[content goes here]</p>
+				<!-- TemplateEndEditable -->
+			</div>
+			<div class="content">
+				<p>{Footer}</p>
+			</div>
+		</div>
+	</body>
 </html>
